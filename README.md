@@ -10,7 +10,7 @@ Inicialmente le llamamos [ChocoCoin](https://coinmarketcap.com/es/currencies/cho
 
 Luego el tema de desarrollar el ERC-20 quedó en pausa ya que no queríamos que se transformara en una shit-token, hasta que nos encontramos en la DevCon 6 Bogota 2022. Allí nos dimos cuenta que al hablar del proyecto, la gente normalmente se reía mucho. Decidimos entonces nombrar el ChocoToken como `el Token de la Alegria` (`The Token of Joy`), y decidimos emprender el proyecto.
 
-![Chocotoken-Devcon6](https://github.com/tomkat-cr/chocotoken/blob/main/2022-10-22-Chocotoken-Devcon6-IMG_4466.jpg)
+![Chocotoken-Devcon6](https://github.com/tomkat-cr/chocotoken/blob/main/images/2022-10-22-Chocotoken-Devcon6-IMG_4466.jpg)
 
 ## ¿Cómo ejecutar este código?
 

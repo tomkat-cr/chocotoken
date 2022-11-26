@@ -1,0 +1,34 @@
+{
+  "name": "chocotoken",
+  "version": "0.1.0",
+  "description": "ChocoToken ERC-20 implementation: the happiness coin",
+  "repository": {
+    "url": "https://github.com/tomkat-cr/chocotoken"
+  },
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "clean": "npx hardhat clean",
+    "node": "npx hardhat node",
+    "test": "npx hardhat test",
+    "deploy": "npm run deploy:goerli",
+    "dev:deploy": "npx hardhat run --network localhost scripts/deploy_upgradeable_chocotoken.js",
+    "deploy:goerli": "npx hardhat run scripts/deploy_upgradeable_chocotoken.js --network goerli"
+  },
+  "keywords": [],
+  "author": "Carlos J. Ramirez & Javier Garcia",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
+    "@openzeppelin/hardhat-upgrades": "^1.21.0",
+    "@nomiclabs/hardhat-etherscan": "^3.1.2",
+    "chai": "^4.3.4",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.2",
+    "dotenv": "^16.0.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.1",
+    "@openzeppelin/contracts-upgradeable": "^4.5.2"
+  }
+}

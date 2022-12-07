@@ -12,23 +12,23 @@
     "node": "npx hardhat node",
     "test": "npx hardhat test",
     "deploy": "npm run deploy:goerli",
-    "dev:deploy": "npx hardhat run --network localhost scripts/deploy_upgradeable_chocotoken.js",
-    "deploy:goerli": "npx hardhat run scripts/deploy_upgradeable_chocotoken.js --network goerli"
+    "dev:deploy": "sh scripts/deploy_all.sh localhost",
+    "deploy:goerli": "sh scripts/deploy_all.sh goerli"
   },
   "keywords": [],
   "author": "Carlos J. Ramirez & Javier Garcia",
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
-    "@nomiclabs/hardhat-ethers": "^2.2.1",
-    "@openzeppelin/hardhat-upgrades": "^1.21.0",
-    "@nomiclabs/hardhat-etherscan": "^3.1.2",
+    "@nomiclabs/hardhat-ethers": "^2.0.3",
     "chai": "^4.3.4",
-    "ethers": "^5.7.2",
-    "hardhat": "^2.12.2",
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.0.3",
+    "ethers": "^5.5.2",
+    "hardhat": "^2.8.0"
   },
   "dependencies": {
+    "@nomicfoundation/ethereumjs-vm": "^6.0.0",
     "@openzeppelin/contracts": "^4.4.1",
-    "@openzeppelin/contracts-upgradeable": "^4.5.2"
+    "@openzeppelin/contracts-upgradeable": "^4.4.1",
+    "@openzeppelin/hardhat-upgrades": "^1.12.0"
   }
 }
